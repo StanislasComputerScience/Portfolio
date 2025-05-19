@@ -1,89 +1,452 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
+
+<head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title></title>
-  </head>
-  <body>
-    <div class="wrap">
-      <header>
-        <h2>Portfolio</h2>
-        <nav id="main-nav" class="dn">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Project</a></li>
-            <li><a href="#">About me</a></li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        <!-- Début contenu -->
-      
-        <div class="box-1 column-1">
-          <div class="txt">
-            <p>Hello It's me :</p>
-            <h1>Rémi LABONNE</h1>
-          </div>
-          <div class="img-container"><img src="img/photo-cv-remi.jpg" /></div>
-        </div>
-        <p class="spacer-1 column-1">And I'm a <span class="style-1">Web Developer Full Stack</span></p>
-        
-        <div class="foot-cont column-1">
-          <div class="box-medium">
-            <span class="span-1">Follow me :</span>
-            <ul class="list-picto list-picto-1">
-              <li class="github"><a href="https://github.com/StanislasComputerScience" rel="external"><img src="img/pictos/picto-github.png" /></a></li>
-              <li><a href="https://www.linkedin.com/in/rémi-labonne-54375461/" rel="external"><img src="img/pictos/picto-linkedin.png" /></a></li>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="Portfolio Rémi LABONNE" content="" />
+    <meta name="Rémi LABONNE" content="" />
+    <title>Resume - Start Bootstrap Theme</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/codeurEnPixel.ico">
+    <!-- <link rel="icon" type="image/jpeg" href="assets/img/codeurEnPixel.jpg"> -->
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet"
+        type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span class="d-block d-lg-none">Rémi LABONNE</span>
+            <span class="d-none d-lg-block">
+                <img class="img-fluid img-profile mx-auto mb-2" src="assets/img/profile3.jpg"
+                    alt="portrait de Rémi LABONNE" />
+            </span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Moi</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Expérience
+                        professionnelle</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Diplômes et concours</a>
+                </li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Compétences</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Centres d'intérêt</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projets">Quelques projets</a></li>
             </ul>
-          </div>
-          <footer>
-            <div class="box-small-2">
-              Contact me:
-              <a class="mail" href="mailto:labonne.remi@gmail.com" rel="external"></a>
-            </div>
-            <br class="dn br" />
-            <a class="box-small-1" href="src/cv-remi-labonne.pdf" rel="external">Download CV</a>
-          </footer>
         </div>
+    </nav>
+    <!-- Page Content-->
+    <div class="container-fluid p-0">
+        <!-- About-->
+        <section class="resume-section" id="about">
+            <div class="resume-section-content">
+                <h1 class="mb-0">
+                    Rémi
+                    <span class="text-primary">LABONNE</span>
+                </h1>
+                <div class="subheading mb-5">
+                    <a href="mailto:labonneremi@gmail.com">labonneremi@gmail.com</a>
+                    <br>
+                    63, rue Kant 59000 Lille (France)
+                    <br>
+                    2, 2.4, Place Albert Plaetens Soignies (Belgique)
+                </div>
+                <p class="lead mb-4">
+                    <strong>Développeur informatique</strong><br>
+                    Spécialisé en <span class="text-primary">Data Engineering</span><br>
+                    <em>À la recherche d'une alternance dès septembre 2025</em>
+                </p>
+                <div class="social-icons">
+                    <a class="social-icon" href="https://www.linkedin.com/in/r%C3%A9mi-labonne-54375461/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
 
-        <!--<div class="wrap-box">-->
-          <div class="column-1">
-            <div class="box-cont">  
-              <div class="box-small white">Web development skills</div>
-              <div class="box-small green">Ready for dev &lt;/&gt;</div>
+                    <a class="social-icon" href="https://github.com/StanislasComputerScience/"><i
+                            class="fab fa-github"></i></a>
+                    <!-- <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
+                    <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a> -->
+                </div>
             </div>
-            
-            <div class="box-big box-big-1">
-              <ul class="list-picto border">
-                <li><img src="img/pictos/picto-css.png" /></li>
-                <li><img src="img/pictos/picto-html.png" /></li>
-                <li><img src="img/pictos/picto-js.png" /></li>
-              </ul>
-              <ul class="list-picto border">
-                <li><img src="img/pictos/picto-angular.png" /></li>
-                <li><img src="img/pictos/picto-typescript.png" /></li>
-                <li><img src="img/pictos/picto-sql.png" /></li>
-              </ul>
-            </div>
-          </div>
-          <div class="column-2">
-            <div class="box-small white">Fun skills</div>
-            <div class="box-big box-big-2">
-              <ul class="list-picto">
-                <li><img src="img/pictos/picto-python.jpg" /></li>
-                <li class="bash"><img src="img/pictos/picto-bash.jpg" /></li>
-                <li><img src="img/pictos/picto-mapple.png" /></li>
-              </ul>
-            </div>
-          </div>
-        <!--</div>-->
+        </section>
+        <hr class="m-0" />
+        <!-- Experience-->
+        <section class="resume-section" id="experience">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Expérience professionnelle</h2>
 
-        <!-- Fin contenu -->
-      </main>
+                <!-- Première expérience -->
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Professeur de mathématiques certifié</h3>
+                        <div class="subheading mb-3">Éducation nationale</div>
+                        <p>Collège et Lycée</p>
+                    </div>
+                    <div class="flex-shrink-0">
+                        <span class="text-primary">2016 - 2023</span>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Formateur référent</h3>
+                        <div class="subheading mb-3">
+                            Amiens Avenir Jeunes - École de la Deuxième Chance du Grand Amiénois
+                        </div>
+                        <p>Obtention et renouvellement du label E2C</p>
+                        <p>Mise en place du référentiel de mathématiques</p>
+                        <p>Accompagnement du parcours des apprenants</p>
+                        <p>Animation d'ateliers :<br>
+                            - Remise à niveau en mathématiques et informatique<br>
+                            - Création de projets professionnels
+                        </p>
+                    </div>
+                    <div class="flex-shrink-0">
+                        <span class="text-primary">2011 - 2016</span>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Formateur pour adultes</h3>
+                        <div class="subheading mb-3">
+                            Amiens Avenir Jeunes - École de la Deuxième Chance du Grand Amiénois
+                        </div>
+                        <p>Obtention et renouvellement du label E2C</p>
+                        <p>Mise en place du référentiel de mathématiques</p>
+                        <p>Accompagnement du parcours des apprenants</p>
+                        <p>Animation d'ateliers :<br>
+                            - Remise à niveau en mathématiques et informatique<br>
+                            - Création de projets professionnels
+                        </p>
+                    </div>
+                    <div class="flex-shrink-0">
+                        <span class="text-primary">2011 - 2016</span>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Professeur des écoles</h3>
+                        <div class="subheading mb-3">
+                            Ecole internationale Balzac du Caire Égypte
+                        </div>
+                        <p>En charge d’une classe de CE2</p>
+
+                    </div>
+                    <div class="flex-shrink-0">
+                        <span class="text-primary">2013 - 2014</span>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Professeur de Physique - Chimie</h3>
+                        <div class="subheading mb-3">
+                            Pigier Création : Ecole de coiffure et d’esthétique
+                        </div>
+                        <p>En charge de classes allant du CAP jusqu’au BTS</p>
+
+                    </div>
+                    <div class="flex-shrink-0">
+                        <span class="text-primary">2010 - 2011</span>
+                    </div>
+                </div>
+
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Éducateur spécialisé</h3>
+                        <div class="subheading mb-3">
+                            Comité Mosellan de Sauvegarde de l'Enfance de l'Adolescence et des Adultes
+                        </div>
+                        <p>Foyer du Grand Chêne</p>
+
+                    </div>
+                    <div class="flex-shrink-0">
+                        <span class="text-primary">2007 - 2010</span>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Education-->
+        <section class="resume-section" id="education">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Formations et concours </h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Expert en infrastructures de données massives
+                        </h3>
+                        <p>Titre professionnel d’État, RNCP 37638 de niveau 7, équivalent à Bac +5</p>
+
+                        <div class="subheading mb-3">Formation Data Engineer Microsoft by Simplon. (en cours)</div>
+
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">2025 - en cours</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Développeur Cobol Mainframe - C# .NET</h3>
+                        <div class="subheading mb-3">AJC Formation & IBM</div>
+                    </div>
+                    <div class="flex-shrink-0">
+                        <span class="text-primary">Septembre - Décembre 2024</span>
+                    </div>
+                </div>
+
+
+                <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Développeur Web Java – Angular</h3>
+                        <div class="subheading mb-3">Wild Code School</div>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">2003</span></div>
+                </div>
+
+                <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <div class="flex-grow-1">
+                        <div class="d-flex flex-column flex-md-row justify-content-between">
+                            <div class="flex-grow-1">
+                                <h3 class="mb-0">Capes de Mathématiques</h3>
+                                <div class="subheading mb-3">Inspe Lille </div>
+                            </div>
+                            <div c lass="flex-shrink-0"><span class="text-primary">Juillet 2016</span></div>
+                        </div>
+
+                        <div class="d-flex flex-column flex-md-row justify-content-between">
+                            <div class="flex-grow-1">
+                                <h3 class="mb-0">Licence de Mathématiques</h3>
+                                <div class="subheading mb-3">Univertité des sciences et technologies de Lille </div>
+                            </div>
+                            <div class="flex-shrink-0"><span class="text-primary">2003</span></div>
+                        </div>
+
+                    </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Skills-->
+        <section class="resume-section" id="skills">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Compétences</h2>
+
+                <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Savoir être</h3>
+                        <ul>
+                            <li>Pédagogie</li>
+                            <li>Communication</li>
+                            <li>Travail d’équipe</li>
+                            <li>Humour</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">COMPETENCES TECHNIQUES</h3>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+
+                <!--
+                <div class="subheading mb-3">Programming Languages & Tools</div> -->
+                <ul class="list-inline dev-icons">
+                    <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-angular"></i></li>
+
+
+
+
+
+                    <li class="list-inline-item">
+                        <img src="./assets/img/sql.png" alt="SQL" style="height: 40px;"><br>
+
+                    </li>
+                    <li class="list-inline-item">
+                        <img src="./assets/img/CSHARP.png" alt="C#" style="height: 40px;"><br>
+
+                    </li>
+                    <li class="list-inline-item">
+                        <img src="./assets/img/COBOL.jpeg" alt="COBOL" style="height: 40px;"><br>
+
+                    </li>
+                </ul>
+
+
+
+
+
+                <div class="subheading mb-3">Workflow</div>
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Méthode Agile Scrum
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <section class="resume-section" id="interests">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Centres d'intérêts</h2>
+                <p>Passionné par les échecs, la philosophie et la musique. J'aime concevoir
+                    des projets alliant logique, créativité et apprentissage continu.</p>
+                <ul>
+                    <li>Jeu d’échecs en compétition</li>
+                    <li>Musique : Piano et guitare</li>
+                    <li>Judo : premier Dan</li>
+                    <li>Lecture (philosophie)</li>
+                </ul>
+            </div>
+        </section>
+
+
+        <!-- Projets-->
+
+
+        <hr class="m-0" />
+        <section class="resume-section" id="projets">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Quelques projets</h2>
+
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+
+                    <!-- Projet 1 : Wa-Tor -->
+                    <div class="col">
+                        <div class="card h-100 shadow">
+                            <img src="assets/img/extrait.gif" class="card-img-top" alt="Projet Wa-Tor">
+                            <div class="card-body">
+                                <h5 class="card-title">Wa-Tor</h5>
+                                <p class="card-text">
+                                    Simulation de la vie marine avec Python (requins et poissons), gestion de
+                                    l'énergie
+                                    et reproduction, affichage dans une grille. Ajout d'une intelligence simple
+                                    avec KNN.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://github.com/StanislasComputerScience/Wa-Tor"
+                                    class="btn btn-primary btn-sm" target="_blank">
+                                    <i class="fab fa-github me-1"></i> Voir sur GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projet 2 : Morpion en réseau -->
+                    <div class="col">
+                        <div class="card h-100 shadow">
+                            <img src="assets/img/morpion.png" class="card-img-top"
+                                alt="Jeu du morpion en réseau dans le terminal">
+                            <div class="card-body">
+                                <h5 class="card-title">Jeu du morpion en réseau</h5>
+                                <p class="card-text">
+                                    Un jeu de Morpion (Tic-Tac-Toe) permettant à deux joueurs de s'affronter via
+                                    une connexion TCP.
+                                    Chaque joueur choisit son symbole (X ou O) et joue tour à tour sur une
+                                    grille 3x3.
+                                </p>
+                                <p class="card-text">
+                                    🛠️ Fonctionnalités :
+                                <ul>
+                                    <li>Jeu en temps réel pour deux joueurs</li>
+                                    <li>Serveur TCP gérant les connexions et la synchronisation</li>
+                                    <li>Interface ligne de commande</li>
+                                    <li>Détection de victoire ou match nul (à venir)</li>
+                                </ul>
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://github.com/StanislasComputerScience/morpion_Reseau"
+                                    class="btn btn-primary btn-sm" target="_blank">
+                                    <i class="fab fa-github me-1"></i> Voir sur GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projet 3 : Elephant de Fermi -->
+                    <div class="col">
+                        <div class="card h-100 shadow">
+                            <img src="assets/img/epicycles_animation.gif" class="card-img-top"
+                                alt="Éléphant de Fermi et Neumann">
+                            <div class="card-body">
+                                <h5 class="card-title">Éléphant de Fermi et Neumann</h5>
+                                <p class="card-text">
+                                    Animation du dessin de l'éléphant de Fermi et Neumann généré à l'aide des
+                                    épicycles en Python.
+                                </p>
+                                <p class="card-text">
+                                    Ce projet illustre l'utilisation des séries de Fourier pour reconstruire un
+                                    contour complexe à partir d'épicycles.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://github.com/StanislasComputerScience/elephant-de-Fermi-Neumann"
+                                    class="btn btn-primary btn-sm" target="_blank">
+                                    <i class="fab fa-github me-1"></i> Voir sur GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projet 4 : Brief Streamlit -->
+                    <div class="col">
+                        <div class="card h-100 shadow">
+                            <img src="assets/img/Brief1.gif" class="card-img-top"
+                                alt="Traitement d'un fichier JSON avec Streamlit">
+                            <div class="card-body">
+                                <h5 class="card-title">Calcul de salaires avec Streamlit</h5>
+                                <p class="card-text">
+                                    Application Streamlit pour le traitement d'un fichier JSON décrivant des
+                                    employés : calcul
+                                    automatique de salaires, gestion des heures supplémentaires et visualisation
+                                    de statistiques.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://github.com/StanislasComputerScience/Brief1"
+                                    class="btn btn-primary btn-sm" target="_blank">
+                                    <i class="fab fa-github me-1"></i> Voir sur GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
     </div>
-    <script src="js/utils.js"></script>
-  </body>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+
 </html>
